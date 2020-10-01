@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Sue+Ellen+Francisco&display=swap");
 
-
 /* Custom properties/variables  */
 :root {
   --main-white: #f0f0f0;
-  --main-red: #be3144;
   --main-blue: #45567d;
   --main-gray: #303841;
 }
@@ -32,21 +30,6 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-
-/* A few media query to set some font sizes at different screen sizes.
- * This helps automate a bit of responsiveness.
- * The trick is to use the rem unit for size values, margin and padding.
- * Because rem is relative to the document font size
- * when we scale up or down the font size on the document
- * it will affect all properties using rem units for the values.
-*/
-
-/* I am using the em unit for breakpoints
- * The calculation is the following
- * screen size divided by browser base font size
- * As an example: a breakpoint at 980px
- * 980px / 16px = 61.25em
-*/
 
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
@@ -117,7 +100,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--main-red);
+  background:#118ab2;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -164,7 +147,7 @@ img {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-red);
+  color: #118ab2;
 }
 
 /* Projects section */
@@ -214,17 +197,12 @@ img {
   border-radius: 2px;
 }
 
-.code {
-  color: var(--main-gray);
+.title {
+  color: #fff;
   transition: color 0.3s ease-out;
 }
 
-.title {
-  color: #fff;
-
-}
-
-.project:hover .code {
+.project:hover .title {
   color: #ff7f50;
 }
 
@@ -252,7 +230,7 @@ img {
 }
 
 .btn-show-all:hover {
-  background: var(--main-red);
+  background: #118ab2;
 }
 
 .btn-show-all:hover > i {
@@ -320,7 +298,7 @@ footer {
   justify-content: space-evenly;
   padding: 2rem;
   background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
+  border-top: 4px solid #118ab2;
 }
 
 footer > p {
