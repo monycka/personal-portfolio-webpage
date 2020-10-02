@@ -189,6 +189,16 @@ img {
   padding: 2rem 0.5rem;
 }
 
+#image{
+  width: 500px;
+  max-width: 500px;
+}
+
+#img-caption {
+  color: #fff;
+  text-align: center;
+}
+
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
