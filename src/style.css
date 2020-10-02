@@ -37,9 +37,9 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.8rem; /* 18px */
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.5;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
@@ -80,7 +80,6 @@ img {
   left: 0;
   width: 100%;
   background:#118ab2;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 
@@ -126,8 +125,6 @@ img {
   color: #fff;
 }
 
-/* Projects section */
-
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
@@ -146,7 +143,6 @@ img {
   }
 }
 
-/* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -179,7 +175,7 @@ img {
 }
 
 .project:hover .title {
-  color: #ff7f50;
+  color: #06d6a0;
 }
 
 .project-image {
@@ -272,8 +268,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: #006d77;
-  border-top: 4px solid #118ab2;
+  background: #83c5be;
 }
 
 footer > p {
