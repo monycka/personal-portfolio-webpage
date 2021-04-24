@@ -55,7 +55,7 @@ h1 {
 }
 
 h2 {
-  color: #125e8a;
+  color: #742a79;
   font-size: 6rem;
 }
 
@@ -67,7 +67,7 @@ h3 {
 }
 
 p {
-  color: #63CCCA;
+  color: #0f8b8d;
   font-size: 3rem;
   font-weight: 200;
   text-align: center;
@@ -158,7 +158,7 @@ img {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid #fff;
-  color: #fff;
+  color: #0c3d5a;
 }
 
 @media (max-width: 28.75em) {
@@ -188,7 +188,7 @@ img {
 }
 
 .project {
-  background: #073b4c;
+  background: #0c3d5a;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
@@ -231,7 +231,7 @@ img {
 
 .btn-show-all {
   font-size: 2rem;
-  background: #073b4c;
+  background: #00665f;
   transition: background 0.3s ease-out;
 }
 
@@ -297,11 +297,12 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: #83c5be;
+  background: #b0e7e8;
 }
 
 footer > p {
   margin: 2rem;
+  color: #637792;
 }
 
 footer i {
