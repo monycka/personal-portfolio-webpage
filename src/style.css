@@ -301,8 +301,9 @@ footer {
 }
 
 footer > p {
-  margin: 2rem;
   color: #637792;
+  font-size: 2rem;
+  margin: 2rem;
 }
 
 footer i {
