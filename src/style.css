@@ -40,7 +40,7 @@ body {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
-  background: linear-gradient(65.5deg, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
+  background: linear-gradient(109.6deg, rgb(121, 203, 202) 11.2%, rgb(119, 161, 211) 91.1%);
 }
 
 h1,
@@ -48,7 +48,6 @@ h2 {
   font-family: 'Sue Ellen Francisco', cursive;
   font-weight: 700;
   text-align: center;
-  color: #2b3f5c;
 }
 
 h1 {
@@ -56,11 +55,12 @@ h1 {
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 5rem;
+  color: #2b3f5c;
 }
 
 h3 {
-  font-size: 3.2rem;
+  font-size: 4rem;
   text-align: center;
   color: #c22c6d;
 }
@@ -78,6 +78,8 @@ img {
   display: block;
   width: 100%;
 }
+
+/* Navigation section */
 
 .nav {
   display: flex;
@@ -115,6 +117,8 @@ img {
   background: #06d6a0;
 }
 
+/* Welcome section */
+
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -125,12 +129,18 @@ img {
   background: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
 }
 
+.welcome-section > .intro {
+  color: #57205B;
+}
+
 .welcome-section > p {
   font-size: 4rem;
   font-weight: 200;
   font-style: italic;
-  color: #fff;
+  color: #B52C69;
 }
+
+/* Projects section */
 
 .projects-section {
   text-align: center;
