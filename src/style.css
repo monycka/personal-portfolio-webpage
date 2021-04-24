@@ -58,6 +58,12 @@ h2 {
   font-size: 4.2rem;
 }
 
+h3 {
+  font-size: 3.2rem;
+  text-align: center;
+  color: #fff;
+}
+
 ul {
   list-style: none;
 }
