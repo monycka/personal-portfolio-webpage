@@ -249,6 +249,12 @@ img {
   transition: transform 0.3s ease-out;
 }
 
+/* Certificates section */
+
+.certificates {
+  color: #57205b;
+}
+
 /* Contact section */
 
 .contact-section {
