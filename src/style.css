@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Sue+Ellen+Francisco&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&family=Shadows+Into+Light&display=swap');
 
 * {
   margin: 0;
@@ -45,7 +45,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-align: center;
 }
@@ -253,6 +253,7 @@ img {
 
 .certificates {
   color: #57205b;
+  font-family: 'Architects Daughter', cursive;
 }
 
 /* Contact section */
