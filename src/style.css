@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light+Two&family=Sue+Ellen+Francisco&display=swap');
 
 * {
   margin: 0;
@@ -55,22 +55,15 @@ h1 {
 }
 
 h2 {
-  color: #742a79;
+  color: #73285b;
   font-size: 6rem;
 }
 
-h3 {
-  color: #b52c69;
-  font-family: 'Architects Daughter', cursive;
-  font-size: 4rem;
-  font-weight: 200;
-  text-align: center;
-}
-
 p {
-  color: #0f8b8d;
+  color: #065a82;
+  font-family: 'Architects Daughter', cursive;
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
 }
 ul {
@@ -143,7 +136,7 @@ img {
 }
 
 .welcome-section > .intro {
-  color: #57205b;
+  color: #73285b;
 }
 
 .welcome-section > p {
@@ -159,7 +152,7 @@ img {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid #fff;
-  color: #0c3d5a;
+  color: #73285b;
 }
 
 @media (max-width: 28.75em) {
@@ -189,7 +182,7 @@ img {
 }
 
 .project {
-  background: #0c3d5a;
+  background: #065a82;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
@@ -200,7 +193,7 @@ img {
 }
 
 .project:hover .title {
-  color: #06d6a0;
+  color: #43a1cc;
 }
 
 .project-image {
@@ -232,7 +225,7 @@ img {
 
 .btn-show-all {
   font-size: 2rem;
-  background: #00665f;
+  background: #065a82;
   transition: background 0.3s ease-out;
 }
 
@@ -252,10 +245,19 @@ img {
 
 /* Certificates section */
 
-.certificates {
-  color: #008080;
+h3 {
+  color: #cb429f;
   font-family: 'Architects Daughter', cursive;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.certificates {
+  color: #065a82;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3rem;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -269,6 +271,14 @@ img {
   width: 100%;
   height: 80vh;
   padding: 0 2rem;
+}
+
+.questions {
+  color: #cb429f;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 4rem;
+  font-weight: 200;
+  text-align: center;
 }
 
 @media (max-width: 28.75em) {
@@ -307,11 +317,11 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: #b0e7e8;
+  background: #43a1cc;
 }
 
 footer > p {
-  color: #637792;
+  color: #73285b;
   font-size: 2rem;
   margin: 2rem;
 }
